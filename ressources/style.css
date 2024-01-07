@@ -54,10 +54,32 @@ header{
     margin: auto;
 }
 
-.mission-title{
+h2{
     padding: 5px;
 }
 
-.mission-text{
+h4{
     padding: 5px;
+}
+
+.tea-of-month{
+    padding: 50px 0;
+    width: 1000px;
+    margin: auto;
+}
+
+.tea-of-month-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month-img{
+    margin-top: 15px;
+}
+
+.monthly-img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
 }
