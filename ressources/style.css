@@ -1,6 +1,5 @@
 *{
     font-family: Helvetica, sans-serif;
-    font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
@@ -27,10 +26,38 @@ header{
     display: flex;
     list-style: none;
     margin: auto 30px auto 0;
-
 }
 
 .header-item{
     margin-left: 30px;
     align-items: center;
+    font-size: 22px;
+}
+
+.mission{
+    margin: auto;
+    width: 1200px;
+}
+
+.mission-img{
+    width: 1200px;
+    height: 700px;
+    margin-top: 69px;
+}
+
+.mission-content{
+    width: 1200px;
+    position: absolute;
+    bottom: 15%;
+    z-index: 1;
+    padding: 5px;
+    margin: auto;
+}
+
+.mission-title{
+    padding: 5px;
+}
+
+.mission-text{
+    padding: 5px;
 }
