@@ -122,7 +122,6 @@ h4{
     background-color: transparent;
     margin-left: 45px;
     opacity: 1;
-
 }
 
 .locations-list {
@@ -130,10 +129,26 @@ h4{
     padding: 20px;
     width: 300px;
     opacity: 1;
-    
 }
 
 .location-item{
     opacity: 1;
     margin: 20px;
+}
+
+.footer-top{
+    align-items: center;
+    height: 200px;
+    margin: 5px 0 0 0;
+    width: 100%;
+}
+
+h5{
+    padding: 20px;
+}
+
+.copyright{
+    text-align: left !important;
+    margin-left: 20px;
+    padding: 0;
 }
