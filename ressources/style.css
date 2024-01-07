@@ -5,6 +5,7 @@
     opacity: 0.9;
     text-align: center;
     margin: 0;
+    list-style: none;
 }
 
 header{
@@ -15,6 +16,10 @@ header{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid seashell;
+}
+
+.container{
+    width: 100%;
 }
 
 .logo{
@@ -82,4 +87,53 @@ h4{
     height: 200px;
     width: 300px;
     margin: 10px;
+}
+
+.locations{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+.locations img{
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+.locations-title {
+    position: absolute;
+    background-color: transparent;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    margin: auto;
+    width: 1200px;
+    color: seashell;
+}
+
+.lists {
+    position: absolute;
+    top: 130px; 
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    margin-left: 45px;
+    opacity: 1;
+
+}
+
+.locations-list {
+    margin-right: 40px;
+    padding: 20px;
+    width: 300px;
+    opacity: 1;
+    
+}
+
+.location-item{
+    opacity: 1;
+    margin: 20px;
 }
